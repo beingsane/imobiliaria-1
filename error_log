@@ -1,0 +1,6 @@
+[22-Sep-2017 16:06:26 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/camposimoveis/public_html/wp-content/themes/imobiliaria-campos/404.php on line 1
+[08-Oct-2017 16:25:26 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/camposimoveis/public_html/wp-content/themes/imobiliaria-campos/404.php on line 1
+[10-Oct-2017 11:58:40 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/camposimoveis/public_html/wp-content/themes/imobiliaria-campos/404.php on line 1
+[13-Oct-2017 12:31:47 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/camposimoveis/public_html/wp-content/themes/imobiliaria-campos/archive.php on line 1
+[17-Oct-2017 11:48:13 America/Chicago] PHP Fatal error:  Call to undefined function language_attributes() in /home/camposimoveis/public_html/wp-content/themes/imobiliaria-campos/header.php on line 2
+[19-Oct-2017 06:50:16 America/Chicago] PHP Fatal error:  Call to undefined function get_header() in /home/camposimoveis/public_html/wp-content/themes/imobiliaria-campos/index.php on line 1
