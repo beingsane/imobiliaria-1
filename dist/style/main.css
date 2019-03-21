@@ -1,0 +1,1351 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{font-size:100%;font:inherit;padding:0;border:0;margin:0;vertical-align:baseline}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}table{border-collapse:collapse;border-spacing:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}.clear{clear:both}
+.sticky{}.bypostauthor{}.wp-caption{}.wp-caption-text{}.gallery-caption{}.alignright{}.alignleft{}.aligncenter{}.screen-reader-text{clip:rect(1px, 1px, 1px, 1px);position:absolute !important}
+
+a{
+	text-decoration: none;
+}
+
+p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+}
+
+.textos-default{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #666;
+}
+
+.textos-default p{
+	margin: 5px 0 20px 0;
+}
+
+.content-page p.no-space{
+	padding-bottom: 0;
+}
+
+.center{
+	width: 1120px;
+	margin: 0 auto;
+}
+
+.bloco-flex{
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	justify-content: space-between;
+	-webkit-justify-content: space-between;
+}
+
+.bloco-flex-footer{
+	display: flex;
+	display: -webkit-flex;
+/*	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;*/
+	padding-bottom: 10px;
+}
+
+.tel-footer:before{
+	content: "|";
+	font-size: 14px;
+	color: #4D704B;
+}
+
+.tel-footer:last-child:before{
+	content: "";
+}
+
+.titulos{
+   	font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 24px;
+    color: #434242;
+    font-weight: 600;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #434242;
+}
+
+.content-page{
+	padding: 40px 0;
+}
+
+.content-page-last{
+	padding: 0 0 40px 0;
+}
+/* ----------- Header ------------- */
+
+.header{
+	background: #fff;
+	padding: 20px 0;
+	transition: all 0.3s ease;
+	height: 58px;
+	z-index: 999;
+}
+
+.logo img{
+	height: 55px;
+	border-radius: 5px;
+}
+
+#menu-header-menu{
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	font-size: 17px;
+	font-weight: 600;
+	padding-top: 17px;  
+}
+
+#menu-header-menu li{
+	display: inline-block;
+	padding: 0 25px;
+	position: relative;
+}
+
+#menu-header-menu li a{
+	text-decoration: none;
+	color: #434242;
+}
+
+#menu-header-menu li:before{
+	content:"";
+	transition: all 200ms ease;
+}	
+
+#menu-header-menu .menu-contato:hover:before {
+	content:"";
+	background: url(../images/icon-contato.png) no-repeat;
+	height: 15px;
+	width: 16px;
+	position: absolute;
+	top: 2px;
+	left: 0;
+	transition: all 200ms ease;
+}
+
+#menu-header-menu .menu-imoveis:hover:before {
+	content:"";
+	background: url(../images/icon-imoveis.png) no-repeat;
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	top: 2px;
+	left: 0;
+	transition: all 200ms ease;
+}
+
+
+#menu-header-menu .menu-pagina-inicial:hover:before {
+	content:"";
+	background: url(../images/icon-pagina-inicial.png) no-repeat;
+	height: 15px;
+	width: 15px;
+	position: absolute;
+	top: 2px;
+	left: 0;
+	transition: all 200ms ease;
+}
+
+#menu-header-menu .menu-quem-somos:hover:before {
+	content:"";
+	background: url(../images/icon-quem-somos.png) no-repeat;
+	height: 15px;
+	width: 18px;
+	position: absolute;
+	top: 2px;
+	left: 0;
+	transition: all 200ms ease;
+}
+
+
+#menu-header-menu .menu-anuncie:hover:before {
+	content:"";
+	background: url(../images/icon-anuncie.png) no-repeat;
+	height: 15px;
+	width: 16px;
+	position: absolute;
+	top: 1px;
+	left: 0;
+	transition: all 200ms ease;
+}
+
+/* Footer */
+
+.footer{
+	background: #C5DD7E;
+	padding: 40px 0;
+}
+
+.bloco-content{
+	width: 25%;
+}
+
+footer .bloco-content:nth-child(2){
+	width: 20%;
+}
+
+footer .bloco-content:nth-child(3){
+	width: 30%;
+}
+
+.bloco-content-menor{
+	width: 20%;
+}
+
+.titulos-footer{
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #333;
+	font-weight: 600;
+}
+
+.titulos-footer a{
+	color: #333;
+}
+
+.textos-footer,
+.textos-footer a{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 22px;
+	color: #474748;
+	list-style-type:none;
+}
+
+.textos-footer{
+	padding: 30px 20px 0 0;
+}
+
+.icon-footer{
+	margin-right: 15px;
+}
+
+.copyright{
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	color: #666;
+	border-top: 1px solid #434242;
+	padding: 40px 0 0 0;
+	margin-top: 40px;
+}
+
+.main{
+	background: #fff;
+}
+
+.bloco-content-home{
+	padding: 40px 0;
+}
+
+.bloco-content-vitrine{
+	width: 23%;
+	text-align: center;
+	margin: 0 20px 20px 0;
+	border-bottom: 3px solid #4D704B;
+	transition: all 0.2s ease;
+	padding-bottom: 20px;
+}
+
+.bloco-content-vitrine:hover{
+	box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.bloco-content-vitrine img{
+	width: 100%;
+}
+
+.bloco-icons-vitrine{
+	display: flex;
+	display: -webkit-flex;
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+    padding: 20px 0 10px 0;
+}
+
+.bloco-content-vitrine-flex{
+	width: 25%
+}
+
+.titulo-vitrine{
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #434242;
+	font-weight: 600;
+	padding: 10px 0 5px 0;
+}
+
+.info-vitrine{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #666;
+    padding: 5px 0;
+    line-height: 20px;
+}
+
+.info-vitrine strong{
+	font-weight: 600;
+	color: #4D704B;
+}
+
+.valor-vitrine{
+	font-family: 'Open Sans', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #434242;
+	font-weight: 500;
+	padding: 5px 0;
+}
+
+
+.wpcf7-form input,
+.wpcf7-form textarea{
+    width: 98%;
+    padding: 8px 10px;
+    border: none;
+    margin: 5px 0;
+    color: #5b5755;
+    /* border-radius: 5px; */
+    border-bottom: 1px solid #ccc;
+}
+
+.single .wpcf7-form input,
+.single .wpcf7-form textarea{
+	width: 92%;
+}
+
+.single .wpcf7-submit{
+	width: 95px!important;
+}
+
+.wpcf7-form textarea{
+	height: 100px;
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   color: #999;
+}
+
+.content-page p{
+    padding-bottom: 15px;
+}
+
+.wpcf7-form .wpcf7-submit{
+    padding: 11px 15px;
+    width: 95px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    background: url(../images/right-button2.png) no-repeat #4D704B;
+    background-position: 85%;
+    background-size: 11px 11px;
+    border: 0;
+}
+
+.content-page a{
+	color: #434242;
+	text-decoration: none;
+	border-bottom: 2px solid #4D704B;
+}
+
+.archive .content-page a{
+	border: 0;
+}
+
+.select-form{
+	border: none;
+	padding: 8px 5px;
+	width: 100%;
+    color: #999;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+#tipo-anuncie{
+	padding-top: 13px;
+}
+
+.image-destaque{
+	margin-bottom: 20px;
+}
+
+.page-anuncie .bloco-flex{
+    justify-content: initial;
+    -webkit-justify-content: initial;
+}
+
+.titulo-form{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #434242;
+	width: 150px;
+	float: left;
+}
+
+::-webkit-input-placeholder {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   color: #999;
+}
+
+:-moz-placeholder {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   color: #999;
+}
+
+::-moz-placeholder {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   color: #999;
+}
+
+:-ms-input-placeholder {  
+   font-family: 'Open Sans', sans-serif;
+   font-size: 14px;
+   color: #999;
+}
+
+.info-imovel{
+	padding-top: 20px;
+}
+
+.titulos-contato{
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #434242;
+	font-weight: 500;
+}
+
+.titulos-contato p:last-child strong{
+	display: none;
+}
+
+.bloco-content-contato{
+	width: 33%;
+	padding-left: 20px;
+}
+
+.bloco-content-contato .bloco-flex{
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+
+.contato-aluguel{
+	padding-right: 20px;
+}
+
+.bloco-content-home .bloco-flex,
+.page-archive .bloco-flex{
+    justify-content: inherit;
+    -webkit-justify-content: inherit;
+}
+
+.bloco-flex-single-content{
+	width: 72%;
+}
+
+.bloco-flex-single-vendedor{
+	width: 255px;
+	position: -webkit-sticky;
+	position: sticky;
+	float: right;
+}
+
+.filtro{
+	background: #C5DD7E;
+	padding: 20px 0;
+}
+
+.filtro .center{
+	text-align: center;
+	color: #999;
+}
+
+.title-pesquisa{
+	font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #434242;
+    font-weight: 500;
+    padding: 10px 0 5px 0;
+}
+
+.filtro input,
+.filtro select{
+    padding: 10px 10px;
+    border: none;
+    margin: 10px 0;
+    color: #5b5755;
+    border-radius: 5px;
+    background: #fff;
+}
+
+input[type="submit"]{
+    padding: 10px 15px;
+    width: 95px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 5px;
+    background: url(../images/right-button2.png) no-repeat #4D704B;
+    background-position: 85%;
+    background-size: 11px 11px;
+    border: 0;
+    position: relative;
+    top: 0px;
+}
+
+.button-filtro{
+	background: #434242;
+	color: #afd63a!important;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 8px 20px!important;
+	position: relative;
+    top: 1px;
+}
+
+.image-single-imovel{
+	height: 200px;
+}
+
+
+/*Menu Responsivo*/
+/* Icon 1 */
+
+#nav-icon2{
+	display: none;
+	width: 30px;
+	height: 25px;
+	position: relative;
+	/*margin: 0 auto;*/
+	-webkit-transform: rotate(0deg);
+	-moz-transform: rotate(0deg);
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+	-webkit-transition: .5s ease-in-out;
+	-moz-transition: .5s ease-in-out;
+	-o-transition: .5s ease-in-out;
+	transition: .5s ease-in-out;
+	cursor: pointer;
+	top: 12px;
+}
+
+/* Icon 2 */
+
+#nav-icon2 span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 15px;
+  background: #333;
+  opacity: 1;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+  -moz-transition: .25s ease-in-out;
+  -o-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+#nav-icon2.open span {
+	width: 22px;
+}
+
+#nav-icon2.open{
+	top:  10px;
+}
+
+#nav-icon2 span:nth-child(even) {
+  left: 50%;
+  border-radius: 0 9px 9px 0;
+}
+
+#nav-icon2 span:nth-child(odd) {
+  left:0px;
+  border-radius: 9px 0 0 9px;
+}
+
+#nav-icon2 span:nth-child(1), #nav-icon2 span:nth-child(2) {
+  top: 2px;
+}
+
+#nav-icon2 span:nth-child(3), #nav-icon2 span:nth-child(4) {
+  top: 22px;
+}
+
+#nav-icon2 span:nth-child(5), #nav-icon2 span:nth-child(6) {
+  top: 12px;
+}
+
+#nav-icon2.open span:nth-child(1),#nav-icon2.open span:nth-child(6) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+#nav-icon2.open span:nth-child(2),#nav-icon2.open span:nth-child(5) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+#nav-icon2.open span:nth-child(1) {
+  left: 5px;
+  top: 15px;
+}
+
+#nav-icon2.open span:nth-child(2) {
+  left: calc(50% - 5px);
+  top: 15px;
+}
+
+#nav-icon2.open span:nth-child(3) {
+  left: -50%;
+  opacity: 0;
+}
+
+#nav-icon2.open span:nth-child(4) {
+  left: 100%;
+  opacity: 0;
+}
+
+#nav-icon2.open span:nth-child(5) {
+  left: 5px;
+  top: 20px;
+}
+
+#nav-icon2.open span:nth-child(6) {
+  left: calc(50% - 5px);
+  top: 20px;
+}
+
+.search .content-page a{
+	border: 0;
+}
+
+
+.textos-footer > li a {
+  position: relative;
+  color: #474748;
+  text-decoration: none;
+}
+
+.textos-footer > li a:hover {
+  color: #474748;
+}
+
+.textos-footer > li a:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #4D704B;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.textos-footer > li a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+.aigen img{
+	height: 18px;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper-parallax {
+    margin-bottom: 480px;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+    bottom: 0;
+}
+
+.informacoes-imovel{
+	padding-left: 30px;
+	width: 46%;
+}
+
+.informacoes-imovel-title{
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #434242;
+    font-weight: 600;
+}
+
+.informacoes-imovel .codigo{
+	font-size: 12px;
+}
+
+.informacoes-imovel .info-vitrine{
+	padding: 20px 0;
+}
+
+.galeria-imoveis{
+	width: 50%;
+}
+
+.imagem-destacada img{
+	max-height: 200px;
+}
+
+.codigo-vitrine{
+	font-family: 'Dosis', sans-serif;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #434242;
+	font-weight: 600;
+	padding: 10px 0 5px 0;
+}
+
+.bloco-flex-single-content .bloco-flex{
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+	width: 100%;
+}
+
+.informacoes-imovel-botao{
+	padding: 11px 15px;
+	padding-bottom: 11px!important;
+    width: 140px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-weight: 600;
+    border-radius: 5px;
+    background: url(../images/right-button2.png) no-repeat #afd63a;
+    background-position: 92%;
+    background-size: 11px 11px;
+    border: 0;
+}
+
+.informacoes-imovel-botao a{
+	border: 0;
+	color: #fff;
+}
+.info-sobre-imovel{
+	width: 50%;
+	padding: 20px 0 0 0;
+	margin-right: 30px;
+}
+
+.info-sobre-imovel-text{
+	width: 42%;
+}
+
+.info-imovel{
+	width: 50%;
+}
+
+.button-map{
+    display: none;
+    padding: 10px;
+    background: #4D704B;
+    color: #fff;
+    left: 0;
+    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 50px;
+    text-align: center;
+}
+
+.gm-style-iw:hover .image-imovel-mapa img{
+	transition: opacity 1s ease;
+	opacity: 0.7;
+}
+
+
+.map-home{
+	display: block;
+}
+
+.map-home:hover .button-map{
+	display: block;
+}
+
+.info-mapa{
+	width: 100%;
+	margin-right: 30px;
+}
+
+.info-imovel p{
+	padding-bottom: 5px;
+}
+
+#imovel{
+	margin-top: 20px;
+}
+
+.endereco-mapa{
+	padding-top: 10px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #666;
+}
+
+.endereco-mapa-venda{
+	text-align: left;
+}
+
+.estado{
+	text-transform: uppercase;
+	display: inline;
+}
+
+.tel-modal{
+	margin-top: 20px;
+	color: #4D704B;
+}
+
+.preco-imovel{
+    font-family: 'Dosis', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    font-weight: 600;
+    color: #4D704B;
+    padding: 20px 0;
+}
+
+.header-fixed{
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+ 	-webkit-align-items:center;
+	height: 48px;
+	position: fixed;
+	width: 100%;
+	-webkit-box-shadow: 0px 4px 5px 0px rgba(102,102,102,0.75);
+	-moz-box-shadow: 0px 4px 5px 0px rgba(102,102,102,0.75);
+	box-shadow: 0px 4px 5px 0px rgba(102,102,102,0.75);
+	padding: 10px 0px;
+}
+
+.header-fixed .logo img{
+	height: 47px;
+}
+
+.bug-fix-fixed{
+    height: 75px;
+    display: none;
+}
+
+.show{
+	display: block;
+}
+
+div.wpcf7-mail-sent-ok,
+div.wpcf7-validation-errors{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 20px;
+	color: #666;
+	margin: 0;
+	padding: 10px;
+	border: 2px solid #afd63a;
+}
+
+span.wpcf7-not-valid-tip{
+	font-size: 12px;
+}
+
+.codigo{
+	padding: 10px 0;
+	color: #666;
+}
+
+.bloco-flex-single-vendedor .codigo{
+	display: none;
+	padding: 0;
+}
+
+/*Mapa*/
+
+.gm-style-iw .bloco-content-vitrine-flex{
+	width: 16%;
+	text-align: center;
+}
+
+.gm-style-iw .bloco-flex{
+	justify-content: flex-start;
+	-webkit-justify-content: flex-start;
+}
+
+.conteudo-info-mapa{
+	max-width: 200px;
+}
+
+.gm-style-iw .bloco-icons-vitrine{
+	padding-top: 10px;
+}
+
+.logo-campos-mapa img{
+	width: 125px;
+}
+
+.image-imovel-mapa img{
+	margin-right: 5px;
+}
+
+.gm-style-iw .titulo-vitrine{
+	padding-left: 10px;
+}
+
+.gm-style-iw .endereco-mapa-window,
+.endereco-mapa-window{
+	font-size: 12px;
+	padding-top: 0;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.image-imovel-mapa{
+	display: flex;
+	display: webkit-flex;
+	align-items: center;
+	-webkit-align-items: center;
+	position: relative;
+}
+
+/* ---- RESPONSIVO --- */
+
+@media(max-width: 1150px){
+	
+	.center{
+		width: 100%;
+	}
+
+	.fb_iframe_widget span,
+	.fb_iframe_widget iframe{
+		width: 100%!important;
+	}
+
+	.content-page,
+	.footer{
+		padding: 40px 20px;
+	}
+
+	.image-destaque img{
+		width: 100%;
+	}
+
+	.bloco-content-home {
+    	padding: 40px 0 0 25px;
+	}
+
+	.footer {
+		width: 96%;
+    	padding: 40px 2%;
+    }
+
+    .informacoes-imovel {
+    	padding-left: 3%;
+	}
+
+	.bloco-flex-single-vendedor{
+		width: 28%;
+	}
+
+	.bloco-flex-single-content {
+    	width: 69%;
+    	padding-right: 3%;
+	}
+
+	.bloco-flex-single-vendedor .titulos{
+		padding-bottom: 17px;
+	}
+
+	.info-sobre-imovel{
+		margin-right: 3%;
+	}
+
+	.content-page-last {
+    	padding: 0 20px 40px 20px;
+    }
+
+    .bloco-content-contato{
+    	padding-left: 2%;
+    }
+
+    .textos-default p{
+    	white-space: normal;
+    }
+
+    #contato{
+    	height: 240px!important;
+    }
+
+    .bloco-content-vitrine{
+    	margin: 0 2% 20px 0;
+    }
+
+    .header{
+    	padding: 20px;
+    }
+
+/*    .bloco-content-home .bloco-flex{
+		flex-wrap: nowrap;
+		-webkit-flex-wrap: nowrap;
+    }*/
+
+}
+
+@media(max-width: 945px){
+
+	.filtro {
+	    padding: 20px 25px;
+   	}
+
+	#nav-icon2{
+		display: block;
+	}
+
+	.menu-principal{
+	    display: none;
+	    z-index: 99;
+	    width: 100%;
+	    /* margin-top: 16px; */
+	    padding-bottom: 20px;
+	    position: absolute;
+	    top: 94px;
+	}
+
+	.header-fixed .menu-principal{
+		top: 74px;
+	}
+
+	#menu-header-menu li a{
+		color: #fff;
+		padding: 20px;
+		display: block;
+	}
+
+	#menu-header-menu{
+		padding-top: 0;
+	}
+
+	#header{
+		height: 54px;
+	}
+
+	.textos-footer{
+		padding-top: 10px;
+	}
+
+	#menu-header-menu li{
+		display: block;
+		border-bottom: 1px solid #999;
+		padding: 0;
+	}
+
+	.menu-header-menu-container{
+		width: 300px;
+		float: right;
+		background: #4D704B;
+	}
+
+	#menu-header-menu li:last-child{
+		border-bottom: 0;
+	}
+
+	.header-fixed{
+		width: 96%;
+		padding: 10px 2%;
+	}
+
+	.imagem-destacada img{
+		height: 100%;
+	}
+
+	.footer{
+		position: relative;
+		height: auto;
+	}
+
+	.wrapper-parallax{
+		margin-bottom: 0;
+	}
+
+	.bloco-content,
+	footer .bloco-content:nth-child(2) {
+    	width: 48%;
+    	padding: 0 2% 30px 0;
+    }
+
+    footer .bloco-content:nth-child(3){
+    	width: 48%;
+    }
+
+	.fb_iframe_widget{
+		margin-top: 30px;
+	}
+
+	.titulos{
+		font-size: 21px;
+	}
+
+	.bloco-flex-single-content {
+    	width: 65%;
+    }
+
+    .bloco-flex-single-vendedor {
+    	width: 32%;
+	}
+
+	.preco-imovel{
+	    padding: 15px 0;
+	}
+
+	.footer{
+		z-index: 99999;
+	}
+
+	#menu-header-menu li:before{
+		visibility: hidden;
+	}
+
+	.header{
+    	z-index: 9999999;
+    }
+
+}
+
+@media(max-width: 700px){
+
+	.bloco-content-vitrine {
+		width: 29.5%;
+	}
+
+	.bloco-flex-single-content{
+		width: 100%;
+	}
+
+	.bloco-flex-single-vendedor {
+    	width: 100%;
+    	padding-top: 30px;
+	}
+
+    #contato{
+    	height: 270px!important;
+    }
+
+    #map{
+    	height: 300px!important;
+    }
+}
+
+@media(max-width: 550px){
+
+	.bloco-content-vitrine {
+		width: 45%;
+	}
+
+	.bloco-content {
+    	width: 100%;
+    	padding: 0 0 30px 0;
+    }
+
+    .bloco-content:nth-child(1){
+    	display: none;
+    }
+
+    .bloco-content:nth-child(4) .titulos-footer{
+    	margin-bottom: 10px;
+    }
+
+    .fb_iframe_widget{
+		margin-top: 30px;
+	}
+
+	.header-fixed {
+    	width: 92%;
+    	padding: 10px 4%;
+	}
+
+	.footer {
+    	width: 90%;
+    	padding: 40px 5%;
+	}
+
+	.bloco-content-home {
+    	padding: 40px 0 0 5%;
+	}
+
+	.informacoes-imovel-title{
+		font-size: 16px;
+	}
+
+	.informacoes-imovel-title .bloco-flex{
+		display: block;
+	}
+
+	.info-imovel{
+		width: 100%;
+	}
+
+	.informacoes-imovel .info-vitrine{
+		padding: 10px 0;
+	}
+
+	.info-imovel:nth-child(2){
+		padding-top: 0;
+	}
+
+	.bloco-content, footer .bloco-content:nth-child(2), footer .bloco-content:nth-child(3){
+		width: 100%;
+	}
+
+	.filtro {
+    	padding: 10px 25px;
+	}
+
+	.filtro input, .filtro select {
+		padding: 5px 10px;
+		margin: 5px 0;
+	}
+
+	.filtro input[type="submit"] {
+    	padding: 5px 15px;
+	}
+
+
+}
+
+@media(max-width: 460px){
+	.conteudo-info-mapa .bloco-content-vitrine-flex{
+		display: none;
+	}
+
+	.image-imovel-mapa img{
+		width: 90px;
+		height: 90px;
+	}
+
+	.gm-style-iw .titulo-vitrine{
+		font-size: 14px;
+		white-space: normal;
+	}
+
+	.gm-style-iw .endereco-mapa{
+		white-space: normal;
+	}
+
+	.galeria-imoveis{
+		width: 100%;
+	}
+
+	.informacoes-imovel{
+		width: 100%;
+		padding-left: 0;
+	}
+
+	#contato{
+		width: 100%!important;
+		height: 150px!important;
+	}
+
+	.bloco-content-contato {
+	    width: 100%;
+	    padding-top: 20px;
+	}
+}
+
+@media(max-width: 425px){
+
+	.bloco-content-vitrine {
+		width: 95%;
+	}
+
+	.copyright div{
+		text-align: center;
+		width: 100%;
+	}
+
+	.aigen{
+	    margin: 20px auto;
+	}
+
+	.image-imovel-mapa{
+		width: 40%;
+	}
+
+	.conteudo-info-mapa{
+		width: 55%;
+	}
+
+	.image-imovel-mapa img{
+		width: 100%;
+		height: auto;
+	}
+
+	.gm-style-iw .bloco-flex {
+	    align-items: center;
+	    -webkit-align-items:center;
+    }
+
+    .info-sobre-imovel{
+    	width: 100%;
+    }
+
+    .info-imovel{
+    	width: 50%;
+    }
+
+    .info-imovel:nth-child(2){
+    	padding-top: 20px;
+    }
+
+    .bloco-content-vitrine{
+    	margin: 0 0 20px 0;
+    }
+}
